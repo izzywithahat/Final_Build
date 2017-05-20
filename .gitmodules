@@ -1,0 +1,3 @@
+[submodule "src/Global_Control"]
+	path = src/Global_Control
+	url = https://github.com/CU-Robosub/Global_Control.git
