@@ -1,3 +1,15 @@
 [submodule "src/Global_Control"]
 	path = src/Global_Control
 	url = https://github.com/CU-Robosub/Global_Control.git
+[submodule "src/Local_Control"]
+	path = src/Local_Control
+	url = https://github.com/CU-Robosub/Local_Control.git
+[submodule "src/Sensor_Intergration"]
+	path = src/Sensor_Intergration
+	url = https://github.com/CU-Robosub/Sensor_Intergration.git
+[submodule "src/Pololu_Motor"]
+	path = src/Pololu_Motor
+	url = https://github.com/CU-Robosub/Pololu_Motor.git
+[submodule "src/Computer_Vision"]
+	path = src/Computer_Vision
+	url = https://github.com/CU-Robosub/Computer_Vision.git
