@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find stabilization)/launch/stabilization.launch" />
+    <include file="$(find ros_pololu_servo)/launch/pololu_sub.launch" />
+
+</launch>
