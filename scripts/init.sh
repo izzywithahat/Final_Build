@@ -1,3 +1,4 @@
+#!/bin/bash 
 sudo apt-get install ros-kinetic-angles
 DIR = basename "$PWD"
 if ["$DIR" != "Final_Build"]; then
