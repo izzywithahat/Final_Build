@@ -16,3 +16,6 @@
 [submodule "src/PNI_Trax"]
 	path = src/PNI_Trax
 	url = https://github.com/CU-Robosub/PNI_Trax.git
+[submodule "src/Debugging-Console"]
+	path = src/Debugging-Console
+	url = https://github.com/CU-Robosub/Debugging-Console.git
