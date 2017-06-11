@@ -19,3 +19,6 @@
 [submodule "src/Debugging-Console"]
 	path = src/Debugging-Console
 	url = https://github.com/CU-Robosub/Debugging-Console.git
+[submodule "src/DVL_Package"]
+	path = src/DVL_Package
+	url = https://github.com/CU-Robosub/DVL_Package.git

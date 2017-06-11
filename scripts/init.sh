@@ -5,7 +5,6 @@ sudo apt-get update
 sudo apt-get install ros-kinetic-desktop-full
 sudo apt-get install ros-desktop-full
 sudo apt-get install ros-kinetic-pid
-# sudo apt-get
 sudo apt-get install ros-kinetic-angles
 DIR = basename "$PWD"
 if ["$DIR" != "Final_Build"]; then
