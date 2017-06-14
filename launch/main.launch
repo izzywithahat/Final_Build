@@ -1,5 +1,41 @@
 <launch>
     <include file="$(find stabilization)/launch/stabilization.launch" />
-    <include file="$(find ros_pololu_servo)/launch/pololu_sub.launch" />
-
+    <include file="$(find ros_pololu_servo)/launch/pololu_example.launch" />
+    <include file="$(find sensor_fusion)/../launch/sensor.launch" />
+    <node pkg="rosbag" type="record" name="sub_rosbag"
+       args="/DVL_vel
+/cmd_vel
+/depth
+/depth_PID/control_effort
+/depth_PID/parameter_descriptions
+/depth_PID/parameter_updates
+/depth_PID/setpoint
+/depth_PID/state
+/diagnostics
+/imu_raw
+/odometry/filtered
+/pid_enable
+/pitch_PID/control_effort
+/pitch_PID/parameter_descriptions
+/pitch_PID/parameter_updates
+/pitch_PID/setpoint
+/pitch_PID/state
+/pololu/command
+/roll_PID/control_effort
+/roll_PID/parameter_descriptions
+/roll_PID/parameter_updates
+/roll_PID/setpoint
+/roll_PID/state
+/rosout
+/rosout_agg
+/set_pose
+/stabilization/control_effort
+/tf
+/tf_static
+/yaw_PID/control_effort
+/yaw_PID/parameter_descriptions
+/yaw_PID/parameter_updates
+/yaw_PID/setpoint
+/yaw_PID/state
+"/>
 </launch>
