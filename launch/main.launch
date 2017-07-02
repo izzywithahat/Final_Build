@@ -1,7 +1,7 @@
 <launch>
     <include file="$(find stabilization)/launch/stabilization.launch" />
-    <!--include file="src/Pololu_Motor/ros_pololu_servo/launch/pololu_sub.launch" /-->
+    <include file="$(find pololu_controller)/launch/pololu_sub.launch" />
     <include file="$(find sensor_fusion)/../launch/sensor.launch" />
-    <node pkg="rosbag" type="record" name="sub_rosbag"
-       args=" -o /home/leviathan/Final_Build/bag -a" />
+    <!--node pkg="rosbag" type="record" name="sub_rosbag"
+       args=" -o /home/leviathan/Final_Build/bag -a" /-->
 </launch>
