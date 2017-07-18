@@ -12,11 +12,11 @@ Our project uses [ROS](http://wiki.ros.org/)
 * You are going to need a sub
 ## Set up
 To get the submodules to work run these commands:
-* $ git submodule init
-* $ git submodule update
-* $ ./scripts/init.sh (Under testing still - results may vary)
-* $ catkin_make
-* $ source devel/setup.bash
+* ```git submodule init```
+* ```git submodule update```
+* ```./scripts/init.sh``` (Under testing still - results may vary)
+* ```catkin_make```
+* ```source devel/setup.bash```
 ## Execution
 * $ roslaunch launch/main.launch
 
