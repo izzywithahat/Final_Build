@@ -1,6 +1,8 @@
 # Final_Build
 This repo acts as a the base catkin directory for the sub's ROS packages.
+
 Our project uses [ROS](http://wiki.ros.org/)
+
 [CU Robosub Site](http://curobotics.org/robosub-2017)
 ## Requirements
 ### System
