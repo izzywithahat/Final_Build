@@ -1,6 +1,9 @@
 # Final_Build
 This repo acts as a the base catkin directory for the sub's ROS packages.
 
+The Sub Repo's are organized as such
+![Repo_Graph](https://user-images.githubusercontent.com/2038191/28999287-e048f1c8-79f5-11e7-9a24-636e41ebb8e7.jpg)
+
 Our project uses [ROS](http://wiki.ros.org/)
 
 [CU Robosub Site](http://curobotics.org/robosub-2017)
@@ -38,4 +41,3 @@ To get the submodules to work run these commands:
   * [Local_Control](https://github.com/CU-Robosub/Local_Control)
   * [Polou_Motor](https://github.com/CU-Robosub/Pololu_Motor)
   * [Sensor_Intergration](https://github.com/CU-Robosub/Sensor_Intergration)
-  
