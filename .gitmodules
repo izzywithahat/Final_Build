@@ -7,9 +7,6 @@
 [submodule "src/Sensor_Intergration"]
 	path = src/Sensor_Intergration
 	url = https://github.com/CU-Robosub/Sensor_Intergration.git
-[submodule "src/Pololu_Motor"]
-	path = src/Pololu_Motor
-	url = https://github.com/CU-Robosub/Pololu_Motor.git
 [submodule "src/Computer_Vision"]
 	path = src/Computer_Vision
 	url = https://github.com/CU-Robosub/Computer_Vision.git
@@ -22,3 +19,6 @@
 [submodule "src/DVL_Package"]
 	path = src/DVL_Package
 	url = https://github.com/CU-Robosub/DVL_Package.git
+[submodule "src/drivers"]
+	path = src/drivers
+	url = git@github.com:CU-Robosub/drivers.git
