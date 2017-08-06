@@ -27,17 +27,21 @@ To get the submodules to work run these commands:
 
 * You may launch any sub launch file or run any script on its own. For direction see [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 ## Contents
-* ### launch/main.launch [Launch File Info](http://wiki.ros.org/roslaunch)
-  * All other launch files are linked to this one. This means one launch file as to be started to start the sub.
-  * This file also starts a bag file to record each run. [ROS bag Info](http://wiki.ros.org/Bags)
+* ### launch
+  * main.launch [Launch File Info](http://wiki.ros.org/roslaunch)
+   * All other launch files are linked to this one. This means one launch file as to be started to start the sub.
+   * This file also starts a bag file to record each run. [ROS bag Info](http://wiki.ros.org/Bags)
+  * dolphin.launch
+   * Launch all launches in main.launch except Global Controller and Bag files
+   * The purpose of this is for testing in small pools.
 * ### scripts - Scripts to make common operations easier
   * git_add.sh - adds all changes made to the sub during a test run
   * git_pull.sh - pulls the lastest changes from all of the submodules
   * init.sh - Installs required packages
 * ### src - This is where all the packages and submodules live
   * [Computer_Vision](https://github.com/CU-Robosub/Computer_Vision)
-  * [Debugging-Console](https://github.com/CU-Robosub/Debugging-Console)
+  * [Debugging-Console](https://github.com/CU-Robosub/Debugging-Console) (Under Construction)
   * [Global_Control](https://github.com/CU-Robosub/Global_Control)
   * [Local_Control](https://github.com/CU-Robosub/Local_Control)
-  * [Polou_Motor](https://github.com/CU-Robosub/Pololu_Motor)
+  * [drivers](https://github.com/CU-Robosub/drivers)
   * [Sensor_Intergration](https://github.com/CU-Robosub/Sensor_Intergration)
