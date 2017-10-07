@@ -21,4 +21,4 @@
 	url = https://github.com/CU-Robosub/DVL_Package.git
 [submodule "src/drivers"]
 	path = src/drivers
-	url = git@github.com:CU-Robosub/drivers.git
+	url = https://github.com/CU-Robosub/drivers.git
