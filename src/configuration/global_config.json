@@ -1,11 +1,11 @@
 {
-    "States" : ["starting_gate","dice"],
+    "States" : ["Starting_gate","Dice"],
     "State_Definitions": {
-        "starting_gate" : {
+        "Starting_gate" : {
             "position": [1,1,1],
             "next_states" : ["dice"]
         },
-        "dice" : {
+        "Dice" : {
             "next_states" : ["end"]
         }
     }
