@@ -49,3 +49,10 @@ CATKIN_IGNORE
 
 #image files managed by issue tracker
 *.jpg
+
+devel/*
+html/*
+latex/*
+
+*.o
+*.gch
