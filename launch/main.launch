@@ -6,9 +6,8 @@
     <!-- <include file="$(find cv_wrapper)/launch/cv_wrapper.launch" /> -->
     <include file="$(find pni_trax_imu)/../launch/drivers.launch" />
 
-
-    <node name="parameter_setter" pkg="configuration" type="parameter_setter.py" output="screen" >
-    </node>
+    <!-- <node name="parameter_setter" pkg="configuration" type="parameter_setter.py" output="screen" >
+    </node> -->
     <!--include file="$(find state_machine)/launch/state_machine.launch" /-->
     <!--node pkg="rosbag" type="record" name="sub_rosbag"
        args=" -o /home/leviathan/Final_Build/bag -a -x '.*compressed.*' " /-->
