@@ -6,7 +6,7 @@
 	url = https://github.com/CU-Robosub/Local_Control.git
 [submodule "src/Sensor_Intergration"]
 	path = src/Sensor_Intergration
-	url = https://github.com/CU-Robosub/Sensor_Intergration.git
+	url = https://github.com/CU-Robosub/sensor_fusion.git
 [submodule "src/Computer_Vision"]
 	path = src/Computer_Vision
 	url = https://github.com/CU-Robosub/Computer_Vision.git
