@@ -14,18 +14,10 @@
 	path = src/Computer_Vision
 	url = https://github.com/CU-Robosub/Computer_Vision.git
 
-[submodule "src/PNI_Trax"]
-	path = src/PNI_Trax
-	url = https://github.com/CU-Robosub/PNI_Trax.git
-
 [submodule "src/Debugging-Console"]
 	path = src/Debugging-Console
 	url = https://github.com/CU-Robosub/Debugging-Console.git
 
-[submodule "src/DVL_Package"]
-	path = src/DVL_Package
-	url = https://github.com/CU-Robosub/DVL_Package.git
-	
 [submodule "src/drivers"]
 	path = src/drivers
 	url = https://github.com/CU-Robosub/drivers.git
