@@ -1,7 +1,7 @@
 <launch>
     <include file="$(find local_control)/launch/local_control.launch" />
     <include file="$(find global_control)/launch/global_control.launch" />
-    <include file="$(find sensor_intergration)/launch/sensor_intergration.launch" />
+    <include file="$(find sensor_fusion)/launch/sensor.launch" />
     <include file="$(find drivers)/launch/drivers.launch" />
     <!-- <include file="$(find cv_wrapper)/launch/cv_wrapper.launch" /> -->
 
