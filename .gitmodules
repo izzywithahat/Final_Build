@@ -21,6 +21,3 @@
 [submodule "src/drivers"]
 	path = src/drivers
 	url = https://github.com/CU-Robosub/drivers.git
-[submodule "sensor_fusion"]
-	path = sensor_fusion
-	url = https://github.com/CU-Robosub/sensor_fusion
