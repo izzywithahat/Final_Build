@@ -1,14 +1,8 @@
 <launch>
-    <include file="$(find stabilization)/launch/stabilization.launch" />
-    <include file="$(find pololu_controller)/launch/pololu_sub.launch" />
-    <include file="$(find sensor_fusion)/../launch/sensor.launch" />
-    <include file="$(find mapper)/launch/mapper.launch" />
+    <include file="$(find local_control)/launch/local_control.launch" />
+    <include file="$(find global_control)/launch/global_control.launch" />
+    <include file="$(find sensor_intergration)/launch/sensor_intergration.launch" />
+    <include file="$(find drivers)/launch/drivers.launch" />
     <!-- <include file="$(find cv_wrapper)/launch/cv_wrapper.launch" /> -->
-    <include file="$(find pni_trax_imu)/../launch/drivers.launch" />
 
-    <!-- <node name="parameter_setter" pkg="configuration" type="parameter_setter.py" output="screen" >
-    </node> -->
-    <!--include file="$(find state_machine)/launch/state_machine.launch" /-->
-    <!--node pkg="rosbag" type="record" name="sub_rosbag"
-       args=" -o /home/leviathan/Final_Build/bag -a -x '.*compressed.*' " /-->
 </launch>
