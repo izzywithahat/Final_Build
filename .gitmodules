@@ -1,23 +1,29 @@
 [submodule "src/Global_Control"]
 	path = src/Global_Control
 	url = https://github.com/CU-Robosub/Global_Control.git
+	branch = master
 
 [submodule "src/Local_Control"]
 	path = src/Local_Control
 	url = https://github.com/CU-Robosub/Local_Control.git
+	branch = master
 
 [submodule "src/sensor_fusion"]
 	path = src/sensor_fusion
 	url = https://github.com/CU-Robosub/sensor_fusion
+	branch = master
 
 [submodule "src/Computer_Vision"]
 	path = src/Computer_Vision
 	url = https://github.com/CU-Robosub/Computer_Vision.git
+	branch = master
 
 [submodule "src/Debugging-Console"]
 	path = src/Debugging-Console
 	url = https://github.com/CU-Robosub/Debugging-Console.git
+	branch = master
 
 [submodule "src/drivers"]
 	path = src/drivers
 	url = https://github.com/CU-Robosub/drivers.git
+	branch = master
