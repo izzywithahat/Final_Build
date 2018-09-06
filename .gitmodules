@@ -22,3 +22,12 @@
 [submodule "src/drivers"]
 	path = src/drivers
 	url = git@github.com:CU-Robosub/drivers.git
+[submodule "src/uuv_simulator"]
+	path = src/uuv_simulator
+	url = https://github.com/uuvsimulator/uuv_simulator.git
+[submodule "src/Gazebo_Sim"]
+	path = src/Gazebo_Sim
+	url = https://github.com/CU-Robosub/Gazebo_Sim.git
+[submodule "src/Description"]
+	path = src/Description
+	url = https://github.com/CU-Robosub/Description
