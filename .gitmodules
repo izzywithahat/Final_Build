@@ -1,33 +1,41 @@
 [submodule "src/Global_Control"]
 	path = src/Global_Control
 	url = https://github.com/CU-Robosub/Global_Control.git
+	branch = master
+
 [submodule "src/Local_Control"]
 	path = src/Local_Control
 	url = https://github.com/CU-Robosub/Local_Control.git
-[submodule "src/Sensor_Intergration"]
-	path = src/Sensor_Intergration
-	url = https://github.com/CU-Robosub/Sensor_Intergration.git
+	branch = master
+
+[submodule "src/sensor_fusion"]
+	path = src/sensor_fusion
+	url = https://github.com/CU-Robosub/sensor_fusion
+	branch = master
+
 [submodule "src/Computer_Vision"]
 	path = src/Computer_Vision
 	url = https://github.com/CU-Robosub/Computer_Vision.git
-[submodule "src/PNI_Trax"]
-	path = src/PNI_Trax
-	url = https://github.com/CU-Robosub/PNI_Trax.git
+	branch = master
+
 [submodule "src/Debugging-Console"]
 	path = src/Debugging-Console
 	url = https://github.com/CU-Robosub/Debugging-Console.git
-[submodule "src/DVL_Package"]
-	path = src/DVL_Package
-	url = https://github.com/CU-Robosub/DVL_Package.git
+	branch = master
+
 [submodule "src/drivers"]
 	path = src/drivers
-	url = git@github.com:CU-Robosub/drivers.git
+        url = https://github.com/CU-Robosub/drivers.git
+	branch = master
+
 [submodule "src/uuv_simulator"]
 	path = src/uuv_simulator
 	url = https://github.com/uuvsimulator/uuv_simulator.git
+
 [submodule "src/Gazebo_Sim"]
 	path = src/Gazebo_Sim
 	url = https://github.com/CU-Robosub/Gazebo_Sim.git
+
 [submodule "src/Description"]
 	path = src/Description
 	url = https://github.com/CU-Robosub/Description
