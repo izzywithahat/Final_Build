@@ -10,7 +10,7 @@
 
 [submodule "src/sensor_fusion"]
 	path = src/sensor_fusion
-	url = https://github.com/CU-Robosub/sensor_fusion
+	url = https://github.com/CU-Robosub/sensor_fusion.git
 	branch = master
 
 [submodule "src/Computer_Vision"]
