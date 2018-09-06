@@ -17,6 +17,8 @@
       <arg name="yaw" default="-0.8"/>
   </include>
 
+  <node pkg="tf" type="static_transform_publisher" name="baselink_gazebo_broadcaster" args="0 0 0 0 0 0 base_link leviathan/base_link 50" />
+
   <include file="$(find leviathan_gazebo_drivers)/launch/leviathan_gazebo_drivers.launch"/>
 
   <node name="joy_node" pkg="joy" type="joy_node"/>
@@ -30,8 +32,6 @@
 
   <include file="$(find controller)/launch/controller_matrix_joy.launch"/>
   <include file="$(find sensor_fusion)/launch/ekf.launch"/>
-
-  <node name="gazebo_leviathan_motor_control" pkg="leviathan_gazebo_drivers" type="motor_control.py"/>
 
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find leviathan_description)/launch/leviathan.rviz" />
 
