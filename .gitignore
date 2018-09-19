@@ -1,6 +1,6 @@
-src/
 build/
 bin/
+src/
 lib/
 devel/
 msg_gen/
