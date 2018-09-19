@@ -24,9 +24,9 @@
   <node name="joy_node" pkg="joy" type="joy_node"/>
 
   <node name="joy_teleop" pkg="leviathan_control" type="joy_teleop.py">
-    <param name="roll_axes" value="0" />
+    <param name="roll_axes" value="3" />
     <param name="pitch_axes" value="1" />
-    <param name="twist_axes" value="3" />
+    <param name="twist_axes" value="0" />
     <param name="throt_axes" value="4" />
   </node>
 
