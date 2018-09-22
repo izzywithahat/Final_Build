@@ -24,10 +24,13 @@
   <node name="joy_node" pkg="joy" type="joy_node"/>
 
   <node name="joy_teleop" pkg="leviathan_control" type="joy_teleop.py">
-    <param name="roll_axes" value="3" />
-    <param name="pitch_axes" value="1" />
-    <param name="twist_axes" value="0" />
-    <param name="throt_axes" value="4" />
+    <param name="strafe_axes" value="3" />
+    <param name="drive_axes" value="1" />
+    <param name="yaw_axes" value="0" />
+    <param name="depth_axes" value="4" />
+    <param name="pitch_axes" value="7" />
+    <param name="roll_axes" value="6" />
+    <param name="default_depth" value="55" />
   </node>
 
   <include file="$(find controller)/launch/controller_matrix_joy.launch"/>
