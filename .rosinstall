@@ -22,7 +22,7 @@
     uri: https://github.com/CU-Robosub/Perception.git
 - git:
     local-name: src/darknet_ros
-    uri: https://github.com/leggedrobotics/darknet_ros.git
+    uri: https://github.com/CU-Robosub/darknet_ros.git
 - git:
     local-name: src/sensor_fusion
     uri: https://github.com/CU-Robosub/sensor_fusion.git
